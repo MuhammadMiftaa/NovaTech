@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 font-poppins">
+    <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 font-poppins z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
@@ -59,7 +59,7 @@ export default function Navbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
             <li>
               <a
-                href="#"
+                href="#home"
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
                 aria-current="page"
               >
@@ -68,7 +68,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
                 About
@@ -76,7 +76,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
                 Services
@@ -84,7 +84,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
                 Contact

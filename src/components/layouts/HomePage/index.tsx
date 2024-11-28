@@ -1,7 +1,7 @@
 "use client";
 import { WorldMap } from "@/components/fragments/world-map";
 import { motion } from "motion/react";
-import Navbar from "@/components/fragments/Navbar";
+import Navbar from "@/components/fragments/navbar";
 import Image from "next/image";
 import React from "react";
 
@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <Navbar></Navbar>
       <main className="font-poppins">
-        <div className="relative h-screen w-full flex flex-col items-center justify-center">
+        <section className="relative h-screen w-full flex flex-col items-center justify-center">
           <Image
             className="relative w-full h-screen after:bg-black after:opacity-100 after:absolute after:inset-0 after:z-10"
             src={"/hero.jpg"}
@@ -18,23 +18,15 @@ export default function HomePage() {
             height={2000}
             alt="hero-image"
           />
-          {/* <Image
-            className="rounded-full mb-10 object-cover object-center"
-            src={"/logo.png"}
-            height={200}
-            width={200}
-            alt="logo"
-          /> */}
           <div className=" absolute bottom-0 w-full flex flex-col justify-center items-center h-1/2 bg-gradient-to-b from-transparent to-white">
             <h1 className="text-7xl font-bold">NovaTech</h1>
-            <h2 className="text-2xl text-neutral-800">
-              Perusahaan yang bergerak di bidang jasa pembuatan aplikasi
-              berbasis web.
+            <h2 className="text-2xl font-light text-neutral-800">
+              Mitra Profesional Anda dalam Solusi Aplikasi Web Inovatif.
             </h2>
           </div>
-        </div>
+        </section>
 
-        <div className="mt-20 dark:bg-black bg-white w-full">
+        <section className="pt-20 dark:bg-black bg-white w-full" id="home">
           <div className="max-w-7xl mx-auto text-center">
             <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
               Konektivitas{" "}
@@ -92,7 +84,8 @@ export default function HomePage() {
               },
             ]}
           />
-        </div>
+        </section>
+
       </main>
     </>
   );
