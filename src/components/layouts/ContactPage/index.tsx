@@ -21,7 +21,7 @@ export default function ContactPage() {
         <AnimatedTestimonials testimonials={testimonials} />
       </section>
 
-      <section className="mt-20 px-32">
+      <section className="pt-28 pb-10 px-32" id="contact">
         <h1 className="text-3xl font-bold text-black text-center mb-7">
           Hubungi Kami
         </h1>

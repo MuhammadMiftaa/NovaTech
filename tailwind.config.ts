@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "white-transparent": "rgba(255, 255, 255, 0.5)",
+        "black-transparent": "rgba(0, 0, 0, 0.8)",
       },
       borderRadius: {
         lg: "var(--radius)",
