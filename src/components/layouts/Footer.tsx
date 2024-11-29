@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="relative z-50 w-full py-3">
-        <h1 className="text-neutral-500 font-light text-center">
+        <h1 className="text-neutral-500 font-light text-center text-sm md:text-base">
           Copyright &copy; 2024 | NovaTech. All rights reserved.
         </h1>
       </div>

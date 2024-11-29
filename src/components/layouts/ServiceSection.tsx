@@ -15,7 +15,7 @@ export default function ServiceSection() {
         </p>
       </section>
 
-      <section className="flex mt-16 justify-center items-center">
+      <section className="flex flex-col md:flex-row mt-16 justify-center items-center">
         {/* Paket Dasar */}
         <div className="w-80 py-12 bg-blue-500 border border-zinc-300 rounded-xl flex flex-col items-center gap-5">
           <div className="flex flex-col gap-5 items-center text-center">

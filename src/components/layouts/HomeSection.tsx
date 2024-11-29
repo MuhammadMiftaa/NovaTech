@@ -9,15 +9,15 @@ export default function HomeSection() {
     <main className="font-poppins">
       <section className="relative h-screen w-full flex flex-col items-center justify-center">
         <Image
-          className="relative w-full h-screen after:bg-black after:opacity-100 after:absolute after:inset-0 after:z-10"
+          className="relative object-cover object-center w-full h-screen after:bg-black after:opacity-100 after:absolute after:inset-0 after:z-10"
           src={"/hero.jpg"}
           width={2000}
           height={2000}
           alt="hero-image"
         />
         <div className=" absolute bottom-0 w-full flex flex-col justify-center items-center h-1/2 bg-gradient-to-b from-transparent to-white">
-          <h1 className="text-7xl font-bold">NovaTech</h1>
-          <h2 className="text-2xl font-light text-neutral-800">
+          <h1 className="text-4xl md:text-7xl font-bold">NovaTech</h1>
+          <h2 className="text-xl md:text-2xl font-light text-neutral-800 text-center">
             Mitra Profesional Anda dalam Solusi Aplikasi Web Inovatif.
           </h2>
         </div>

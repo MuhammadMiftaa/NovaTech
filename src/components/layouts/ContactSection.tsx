@@ -6,7 +6,7 @@ import { LabelInputContainer } from "@/components/elements/label-input-container
 
 export default function ContactSection() {
   return (
-    <main className="font-poppins mt-12 py-28">
+    <main className="font-poppins md:mt-12 pb-28 pt-20 md:pt-28">
       <section>
         <div className="w-3/4 mx-auto flex flex-col">
           <h1 className="text-4xl font-bold text-black text-center">
@@ -21,7 +21,7 @@ export default function ContactSection() {
         <AnimatedTestimonials testimonials={testimonials} />
       </section>
 
-      <section className="pt-28 pb-10 px-32" id="contact">
+      <section className="pt-12 md:pt-28 pb-10 px-8 md:px-32" id="contact">
         <h1 className="text-3xl font-bold text-black text-center mb-7">
           Hubungi Kami
         </h1>
