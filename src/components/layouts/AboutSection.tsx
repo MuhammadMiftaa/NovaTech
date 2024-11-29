@@ -3,9 +3,9 @@ import { HoverEffect } from "@/components/fragments/card-hover-effect";
 import { Chart1 } from "@/components/fragments/pie-chart";
 import { Chart2 } from "@/components/fragments/bar-chart";
 
-export default function AboutPage() {
+export default function AboutSection() {
   return (
-    <main className="max-w-5xl mx-auto px-8 mt-12 pt-28" id="about">
+    <main className="max-w-5xl mx-auto px-8 mt-12 pt-28 font-poppins" id="about">
       <section>
         <h1 className="text-center font-bold text-4xl text-black">
           Mengapa Memilih NovaTech?

@@ -1,10 +1,10 @@
 import { AnimatedTestimonials } from "@/components/fragments/animated-testimonials";
 import { Input } from "@/components/fragments/input";
 import { Label } from "@/components/fragments/label";
-import { BottomGradient } from "@/components/ui/bottom-gradient";
-import { LabelInputContainer } from "@/components/ui/label-input-container";
+import { BottomGradient } from "@/components/elements/bottom-gradient";
+import { LabelInputContainer } from "@/components/elements/label-input-container";
 
-export default function ContactPage() {
+export default function ContactSection() {
   return (
     <main className="font-poppins mt-12 py-28">
       <section>

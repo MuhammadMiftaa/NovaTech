@@ -1,18 +1,18 @@
 import Navbar from "@/components/fragments/navbar";
-import AboutPage from "@/components/layouts/AboutPage";
-import ContactPage from "@/components/layouts/ContactPage";
+import AboutSection from "@/components/layouts/AboutSection";
+import ContactSection from "@/components/layouts/ContactSection";
 import Footer from "@/components/layouts/Footer";
-import HomePage from "@/components/layouts/HomePage";
-import ServicePage from "@/components/layouts/ServicePage";
+import HomeSection from "@/components/layouts/HomeSection";
+import ServiceSection from "@/components/layouts/ServiceSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <HomePage />
-      <AboutPage />
-      <ServicePage />
-      <ContactPage />
+      <HomeSection />
+      <AboutSection />
+      <ServiceSection />
+      <ContactSection />
       <Footer />
     </>
   );

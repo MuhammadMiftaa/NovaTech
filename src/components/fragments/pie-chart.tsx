@@ -11,13 +11,13 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/elements/card";
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart";
+} from "@/components/elements/chart";
 const chartData = [
   { browser: "teknologifinansial", visitors: 275, fill: "#e13670" }, // Biru untuk teknologifinansial
   { browser: "ecommerce", visitors: 200, fill: "#e78c2f" }, // Oranye untuk ecommerce

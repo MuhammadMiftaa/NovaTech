@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import Image from "next/image";
 import React from "react";
 
-export default function HomePage() {
+export default function HomeSection() {
   return (
     <main className="font-poppins">
       <section className="relative h-screen w-full flex flex-col items-center justify-center">

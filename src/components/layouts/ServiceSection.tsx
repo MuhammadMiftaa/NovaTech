@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ServicePage() {
+export default function ServiceSection() {
   return (
     <main className="px-8 mt-12 py-28 bg-blue-500 font-poppins" id="service">
       <section className="w-3/4 mx-auto">
