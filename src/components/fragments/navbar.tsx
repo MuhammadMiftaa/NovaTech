@@ -7,7 +7,7 @@ export default function NavbarComponent() {
       <Navbar.Brand href="#home">
         <img
           src="/logo.png"
-          className="mr-3 h-6 sm:h-9"
+          className="mr-3 h-6 sm:h-9 rounded-full"
           alt="NovaTech Logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
