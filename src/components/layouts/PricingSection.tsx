@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function ServiceSection() {
+export default function PricingSection() {
   return (
-    <main className="px-8 mt-12 py-28 bg-blue-500 font-poppins" id="service">
+    <main className="px-8 mt-12 py-28 bg-blue-500 font-poppins" id="pricing">
       <section className="w-3/4 mx-auto">
         <h1 className="text-center font-bold text-4xl text-white">
           Layanan Kami

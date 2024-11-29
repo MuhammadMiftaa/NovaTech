@@ -18,7 +18,8 @@ export default function Footer() {
         <div className="w-full flex gap-8 justify-center text-sm text-neutral-500">
           <Link href={"#home"}>Home</Link>
           <Link href={"#about"}>About</Link>
-          <Link href={"#service"}>Service</Link>
+          <Link href={"#pricing"}>Pricing</Link>
+          <Link href={"#review"}>Review</Link>
           <Link href={"#contact"}>Contact</Link>
         </div>
         <div className="mt-6 flex gap-3">
